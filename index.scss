@@ -1,0 +1,1335 @@
+$bg_color: #183e78;
+
+body {
+  margin: 0;
+  width: 100%;
+
+  .hero-section {
+    background: $bg_color;
+    width: 100%;
+
+    .container {
+      padding: 20px;
+
+      .row {
+        .header {
+          display: flex;
+          flex-direction: row;
+
+          div.logo-section {
+            img.logo {
+              width: 211px;
+              height: 52.09px;
+              object-fit: contain;
+
+              @media only screen and (max-width: 768px) {
+                width: 131px;
+                height: 32.346px;
+              }
+            }
+          }
+
+          div {
+            &.menus-section {
+              a.menu {
+                margin-right: 50px;
+                font-family: "SF Pro Display", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.04em;
+                color: #fafafa;
+                text-decoration: none;
+              }
+            }
+          }
+
+          div {
+            &.login-section {
+              display: flex;
+              flex-direction: row;
+              justify-content: end;
+              align-items: center;
+
+              a {
+                font-family: "SF Pro Display", sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.04em;
+                color: #fafafa;
+                text-decoration: none;
+                margin-right: 35px;
+              }
+
+              button {
+                width: 168.89px;
+                height: 56px;
+                background: #ffffff;
+                box-shadow: 0px 111.111px 88.8889px rgba(56, 56, 56, 0.1),
+                  0px 72.0165px 52.0576px rgba(56, 56, 56, 0.0759259);
+                border-radius: 2px;
+                border: none;
+                cursor: pointer;
+                color: #183e78;
+                font-family: "SF Pro Display", sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                letter-spacing: 0.04em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+div.hero-left {
+  padding-top: 160px;
+
+  @media only screen and (max-width: 768px) {
+    padding-top: 40px;
+  }
+
+  p.heading {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 110%;
+    color: #ffffff;
+    margin: 0;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 63px;
+    }
+
+    strong.blue {
+      color: #48d8f8;
+    }
+  }
+
+  p.heading_2 {
+    margin: 0;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 110%;
+    color: #ffffff;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 63px;
+    }
+
+    strong.blue {
+      color: #48d8f8;
+    }
+  }
+
+  p.para {
+    font-family: "SF Pro Display", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding-right: 154px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 19px;
+      padding-right: 4px;
+    }
+  }
+
+  div.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+
+    @media only screen and (max-width: 768px) {
+      width: 75%;
+    }
+
+    button.get_started {
+      background: #48d8f8;
+      box-shadow: 0px 111.111px 88.8889px rgba(56, 56, 56, 0.1),
+        0px 72.0165px 52.0576px rgba(56, 56, 56, 0.0759259);
+      border-radius: 2px;
+      width: 168px;
+      height: 56px;
+      font-family: "SF Pro Display", sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #183e78;
+      border: none;
+      cursor: pointer;
+    }
+
+    div.play-button {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+
+  div.para_2 {
+    display: flex;
+    flex-direction: row;
+    width: 112%;
+    margin: 50px 0px;
+
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+
+    p.text {
+      font-family: 'SF Pro Display';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 110%;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      padding-right: 30px;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 14px;
+        padding-right: 10px;
+      }
+
+      strong.golden {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 110%;
+        letter-spacing: 0.04em;
+        color: #F2A33B;
+        padding-right: 6px;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 20px;
+          padding-right: 3px;
+        }
+      }
+    }
+  }
+}
+
+div.hero-right {
+  padding: 0px;
+  position: relative;
+  left: 8%;
+  top: 24px;
+  text-align: end;
+
+  @media only screen and (max-width: 768px) {
+    left: 0%;
+    top: -112px;
+  }
+
+  img {
+    @media only screen and (max-width: 768px) {
+      width: 390px;
+      height: 315px;
+    }
+  }
+
+  .sale_box {
+    width: 388px;
+    height: 136px;
+    background: #185BBF;
+    border-radius: 8px;
+    position: absolute;
+    top: 80%;
+    left: 53%;
+
+    @media only screen and (max-width: 768px) {
+      width: 294px;
+      height: 104px;
+      left: 15%;
+    }
+
+    div.sale_text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 25px 30px;
+
+      @media only screen and (max-width: 768px) {
+        padding: 0px 25px;
+        margin: 20px 0px;
+      }
+
+      div {
+        p.upto {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          margin: 0px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 12.124px;
+          }
+        }
+
+        p.percen {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 48px;
+          line-height: 150%;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+          margin: 0;
+          margin-top: -10px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 36.371px;
+          }
+        }
+      }
+
+      span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 150%;
+        color: #FFFFFF;
+        text-align: initial;
+        margin-left: 30px;
+        padding-right: 29px;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 16.67px;
+          padding-right: 0px;
+          margin-left: 19px;
+        }
+      }
+    }
+  }
+}
+
+div.brands_logos {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  margin-top: 70px;
+
+  @media only screen and (max-width: 768px) {
+    margin-top: 0;
+    flex-wrap: wrap;
+    width: 95%;
+  }
+
+  img.brand_logo1 {
+    width: 144px;
+    height: 72px;
+    filter: invert(1);
+
+    @media only screen and (max-width: 768px) {
+      width: 96px;
+      height: 48px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+div.about-section {
+  div.container {
+    div.row {
+      div.about_left {
+        padding-top: 150px;
+
+        @media only screen and (max-width: 768px) {
+          padding: 0 24px;
+          padding-top: 80px;
+        }
+
+        p.about {
+          color: #F2A33B;
+          font-size: 16px;
+          font-family: Inter;
+          font-weight: 600;
+          line-height: 120%;
+          margin-top: 0px;
+          margin-bottom: 12px;
+        }
+
+        h2.liftech {
+          color: #183E78;
+          font-size: 60px;
+          font-family: Outfit;
+          font-weight: 600;
+          line-height: 110%;
+          margin-top: 0px;
+          margin-bottom: 10px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 48px;
+          }
+        }
+
+        p.para_3 {
+          margin-top: 0px;
+          color: #2B313B;
+          font-size: 20px;
+          font-family: SF Pro Display;
+          font-weight: 300;
+          line-height: 160%;
+          padding-right: 58px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 18px;
+            padding-right: 0;
+          }
+        }
+
+        p.para_4 {
+          margin-top: 0px;
+          color: #2B313B;
+          font-size: 20px;
+          font-family: SF Pro Display;
+          font-weight: 300;
+          line-height: 160%;
+          padding-right: 90px;
+          margin-bottom: 40px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 18px;
+            padding-right: 0;
+          }
+        }
+
+        div {
+          a.who_we {
+            color: #183F79;
+            text-align: center;
+            font-size: 20px;
+            font-family: Outfit;
+            font-weight: 500;
+            line-height: 16px;
+            text-decoration-line: underline;
+          }
+
+          img {
+            margin: -2px 4px;
+          }
+        }
+      }
+
+      div.about_right {
+        padding: 0px;
+        text-align: right;
+
+        @media only screen and (max-width: 768px) {
+          text-align: center;
+        }
+
+        img {
+          @media only screen and (max-width: 768px) {
+            width: 367px;
+            height: 300px;
+          }
+        }
+      }
+    }
+
+    div.ai {
+      div.advanced-ai-section {
+        width: 1356px;
+        height: 680px;
+        background: #183E78;
+        border-radius: 10px;
+        padding: 0;
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+          height: auto;
+          padding: 0 15px;
+        }
+
+        div.row {
+          div.mobile_ai_left {
+            @media only screen and (max-width: 768px) {
+              padding: 0;
+            }
+            img {
+              width: 100%;
+            }
+          }
+
+          div.ai_right {
+            @media only screen and (max-width: 768px) {
+              padding: 0 35px;
+            }
+
+            p.combine {
+              color: #48D8F8;
+              font-size: 56px;
+              font-family: Outfit;
+              font-weight: 600;
+              line-height: 120%;
+              margin-bottom: 0px;
+              margin-top: 91px;
+
+              @media only screen and (max-width: 768px) {
+                margin-top: 27px;
+                font-size: 48px;
+              }
+            }
+
+            p.advanced {
+              color: #48D8F8;
+              font-size: 56px;
+              font-family: Outfit;
+              font-weight: 600;
+              line-height: 120%;
+              margin-top: 0px;
+              margin-bottom: 0px;
+
+              @media only screen and (max-width: 768px) {
+                font-size: 48px;
+                padding-right: 85px;
+              }
+
+              strong.ai_based {
+                color: #fff;
+              }
+            }
+
+            p.para_5 {
+              color: #FFF;
+              font-size: 20px;
+              font-family: SF Pro Display;
+              font-weight: 300;
+              line-height: 29.149px;
+              letter-spacing: 0.4px;
+            }
+
+            .main-cards {
+              display: flex;
+              flex-direction: row;
+
+              @media only screen and (max-width: 768px) {
+                flex-wrap: wrap;
+              }
+
+              .cards {
+                width: 244px;
+                height: 270px;
+                background: #1D4A8C;
+                border-radius: 10px;
+                padding: 35px 20px;
+                margin-right: 24px;
+
+                @media only screen and (max-width: 768px) {
+                  width: 100%;
+                  height: 244px;
+                  margin-right: 0;
+                  margin-bottom: 24px;
+                }
+
+                p.avoid {
+                  color: #FFF;
+                  font-size: 22px;
+                  font-family: Outfit;
+                  line-height: 140%;
+                  letter-spacing: 0.22px;
+                  padding-right: 20px;
+                  margin-left: 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    div.construction-section {
+      @media only screen and (max-width: 768px) {
+        flex-direction: column-reverse;
+      }
+
+      .construction-left {
+        padding-top: 100px;
+
+        @media only screen and (max-width: 768px) {
+          padding: 0 24px;
+          padding-top: 32px;
+        }
+
+        img {
+          @media only screen and (max-width: 768px) {
+            width: 342px;
+            height: 472px;
+          }
+        }
+      }
+
+      .construction-right {
+        margin-top: 226px;
+
+        @media only screen and (max-width: 768px) {
+          margin-top: 80px;
+          padding: 0 24px;
+        }
+
+        p.through {
+          color: #183F79;
+          font-size: 56px;
+          font-family: Outfit;
+          font-weight: 600;
+          line-height: 120%;
+          margin-bottom: 0px;
+          margin-top: 0px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 48px;
+          }
+
+          .construction {
+            color: #48D8F8;
+          }
+        }
+
+        p.para_6 {
+          color: #2B313B;
+          font-size: 20px;
+          font-family: SF Pro Display;
+          font-weight: 300;
+          line-height: 150%;
+          letter-spacing: 0.8px;
+          padding-right: 89px;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 18px;
+            padding-right: 0;
+          }
+        }
+
+        div {
+          margin-top: 30px;
+
+          a.our_solution {
+            color: #183F79;
+            text-align: center;
+            font-size: 20px;
+            font-family: Outfit;
+            font-weight: 500;
+            line-height: 16px;
+            text-decoration-line: underline;
+          }
+
+          img {
+            margin: -3px 5px;
+          }
+        }
+      }
+    }
+
+    div.profile-section {
+      margin-top: 100px;
+      @media only screen and (max-width: 768px) {
+        margin-top: 0;
+      }
+
+      .industry_feedback {
+        padding-top: 175px;
+        margin-right: 50px;
+        @media only screen and (max-width: 768px) {
+          padding: 0 24px;
+          padding-top: 32px;
+          margin-right: 0;
+        }
+
+        h2.industry {
+          color: #183F79;
+          font-size: 56px;
+          font-family: Outfit;
+          font-weight: 600;
+          line-height: 120%;
+          margin-bottom: 0px;
+          @media only screen and (max-width: 768px) {
+            margin-top: 0;
+            font-size: 48px;
+          }
+        }
+
+        h2.feedback {
+          color: #48D8F8;
+          font-size: 56px;
+          font-family: Outfit;
+          font-weight: 600;
+          line-height: 120%;
+          margin-bottom: 0px;
+          margin-top: 0;
+          @media only screen and (max-width: 768px) {
+            font-size: 48px;
+          }
+        }
+
+        p.client_says {
+          color: #2B313B;
+          font-size: 24px;
+          font-family: SF Pro Display;
+          font-weight: 300;
+          line-height: 150%;
+          letter-spacing: 0.96px;
+          padding-right: 30px;
+          margin-bottom: 56px;
+          @media only screen and (max-width: 768px) {
+            font-size: 18px;
+            margin-bottom: 35px;
+          }
+        }
+
+        div.bars {
+          display: flex;
+          flex-direction: row;
+          width: 45%;
+          justify-content: space-between;
+
+          div.bar_1 {
+            width: 64px;
+            height: 8px;
+            border-radius: 100px;
+            background: #48D8F8;
+          }
+
+          div.bar_2 {
+            width: 32px;
+            height: 8px;
+            border-radius: 100px;
+            background: #48D8F8;
+            opacity: 0.5;
+          }
+
+          div.bar_3 {
+            width: 24px;
+            height: 8px;
+            opacity: 0.20000000298023224;
+            border-radius: 100px;
+            background: #48D8F8;
+          }
+        }
+      }
+
+      div.profile_1 {
+        padding: 0;
+        max-width: 30%;
+        @media only screen and (max-width: 768px) {
+          max-width: 100%;
+          padding: 0 24px;
+          margin-top: 40px;
+        }
+
+        img.pic_1 {
+          position: relative;
+          top: 4px;
+          left: 10%;
+          @media only screen and (max-width: 768px) {
+            width: 134.181px;
+            height: 140px;
+          }
+        }
+
+        div.profile_card {
+          width: 436px;
+          height: 334px;
+          border: 1px solid #EAEAEA;
+          border-radius: 10px;
+          background: #FBFCFE;
+          padding: 48px;
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 260px;
+            padding: 32px 32px;
+          }
+
+          div.yellow_arrow {
+            position: absolute;
+            left: -25px;
+            bottom: 27%;
+            @media only screen and (max-width: 768px) {
+              left: 50%;
+              transform: translate(-50%, 50%);
+              bottom: 0;
+            }
+          }
+
+          h2.corporation {
+            color: #000;
+            font-size: 28px;
+            font-family: SF Pro Display;
+            font-weight: 700;
+            line-height: 160%;
+            letter-spacing: 1.12px;
+            margin: 0;
+            margin-bottom: 16px;
+            @media only screen and (max-width: 768px) {
+              font-size: 22px;
+            }
+
+            .ivy {
+              color: #183E78;
+            }
+          }
+
+          .para_7 {
+            color: #2B313B;
+            font-size: 24px;
+            font-family: SF Pro Display;
+            font-weight: 300;
+            line-height: 150%;
+            letter-spacing: 0.96px;
+            margin: 0;
+            @media only screen and (max-width: 768px) {
+              font-size: 18.826px;
+            }
+          }
+        }
+      }
+
+      div.profile_2 {
+        padding: 0;
+        max-width: 30%;
+        @media only screen and (max-width: 768px) {
+          max-width: 100%;
+          padding: 0 24px;
+          margin-top: 40px;
+        }
+
+        img.pic_2 {
+          position: relative;
+          top: 4px;
+          left: 10%;
+          @media only screen and (max-width: 768px) {
+            width: 134.181px;
+            height: 140px;
+          }
+        }
+
+        div.profile_card {
+          width: 436px;
+          height: 334px;
+          border: 1px solid #EAEAEA;
+          border-radius: 10px;
+          background: #FBFCFE;
+          padding: 48px;
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            height: 260px;
+            padding: 32px 32px;
+          }
+
+          h2.corporation {
+            color: #000;
+            font-size: 28px;
+            font-family: SF Pro Display;
+            font-weight: 700;
+            line-height: 160%;
+            letter-spacing: 1.12px;
+            margin: 0;
+            margin-bottom: 16px;
+            @media only screen and (max-width: 768px) {
+              font-size: 22px;
+            }
+
+            .ivy {
+              color: #183E78;
+            }
+          }
+
+          .para_7 {
+            color: #2B313B;
+            font-size: 24px;
+            font-family: SF Pro Display;
+            font-weight: 300;
+            line-height: 150%;
+            letter-spacing: 0.96px;
+            margin: 0;
+            @media only screen and (max-width: 768px) {
+              font-size: 18.826px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+div.helping-section {
+  background: #FBFCFE;
+  margin-top: 150px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 80px;
+  }
+
+  div.container {
+    div.row {
+      div.helping-shape {
+        padding: 0;
+        padding-right: 147px;
+        @media only screen and (max-width: 768px) {
+          padding: 0 24px;
+        }
+
+        h2.helping-heading {
+          color: #183F79;
+          font-size: 56px;
+          font-family: Outfit;
+          font-weight: 600;
+          line-height: 120%;
+          margin-top: 115px;
+          margin-bottom: 24px;
+          @media only screen and (max-width: 768px) {
+            font-size: 48px;
+            margin-top: 40px;
+          }
+
+          .const {
+            color: #48BBF8;
+          }
+        }
+
+        p.para_8 {
+          color: #2B313B;
+          font-size: 24px;
+          font-family: SF Pro Display;
+          font-weight: 700;
+          line-height: 150%;
+          letter-spacing: 0.96px;
+          margin: 0;
+          @media only screen and (max-width: 768px) {
+            font-size: 20px;
+          }
+        }
+
+        p.para_9 {
+          color: #2B313B;
+          font-size: 24px;
+          font-family: SF Pro Display;
+          font-weight: 500;
+          line-height: 150%;
+          letter-spacing: 0.96px;
+          margin: 0;
+          margin-bottom: 40px;
+          @media only screen and (max-width: 768px) {
+            font-size: 20px;
+          }
+        }
+
+        h2.product-market {
+          color: #48D8F8;
+          font-size: 24px;
+          font-family: SF Pro Display;
+          font-weight: 700;
+          line-height: 150%;
+          letter-spacing: 0.96px;
+          margin: 0;
+          @media only screen and (max-width: 768px) {
+            font-size: 20px;
+          }
+        }
+
+        p.customized {
+          color: #2B313B;
+          font-size: 24px;
+          font-family: SF Pro Display;
+          font-weight: 500;
+          line-height: 150%;
+          letter-spacing: 0.96px;
+          margin: 0;
+          @media only screen and (max-width: 768px) {
+            font-size: 20px;
+          }
+        }
+
+        ul.precautions {
+          list-style: disc;
+          padding: 0;
+          padding-left: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-top: 30px;
+
+          li {
+            color: #2B313B;
+            font-size: 24px;
+            font-family: SF Pro Display;
+            line-height: 150%;
+            letter-spacing: 0.96px;
+            @media only screen and (max-width: 768px) {
+              font-size: 20px;
+            }
+
+            &::marker {
+              color: #F2A33B;
+              font-size: 30px;
+              line-height: 60px;
+            }
+          }
+        }
+
+        div.what_we_do_section {
+          margin-top: 48px;
+          @media only screen and (max-width: 768px) {
+            margin-top: 32px;
+          }
+
+          a.what_we_do {
+            color: #183F79;
+            text-align: center;
+            font-size: 20px;
+            font-family: Outfit;
+            font-weight: 500;
+            line-height: 16px;
+            text-decoration-line: underline;
+          }
+
+          img.arrow {
+            margin: -2px 3px;
+          }
+        }
+      }
+
+      div.helping-shape-right {
+        padding: 0;
+        text-align: right;
+        transform: translateX(45px);
+        @media only screen and (max-width: 768px) {
+          transform: translateX(0px);
+          text-align: center;
+        }
+        img.helping-shape-pic {
+          @media only screen and (max-width: 768px) {
+            width: 342px;
+            height: 491px;
+          }
+        }
+      }
+    }
+  }
+}
+
+div.footer-section {
+  background: #1D4A8C;
+
+  div.container {
+    div.row {
+      div.footer-section-right {
+        padding-top: 80px;
+        padding-bottom: 70px;
+        @media only screen and (max-width: 768px) {
+          padding: 40px 24px;
+        }
+
+        div.row {
+          justify-content: space-between;
+          width: 90%;
+          @media only screen and (max-width: 768px) {
+            width: 100%;
+            margin: 0;
+          }
+
+          div.footer-section-right-1 {
+            padding: 0;
+            @media only screen and (max-width: 768px) {
+              padding: 0px 10px;
+            }
+
+            img.footer_logo {
+              width: 161px;
+              height: 40px;
+              margin-bottom: 50px;
+              @media only screen and (max-width: 768px) {
+                margin-bottom: 48px;
+              }
+            }
+
+            p.Street {
+              color: #FFF;
+              font-size: 16px;
+              font-family: SF Pro Display;
+              font-weight: 300;
+              line-height: 160%;
+              margin: 0;
+            }
+
+            p.address {
+              color: #FFF;
+              font-size: 16px;
+              font-family: SF Pro Display;
+              font-weight: 300;
+              line-height: 160%;
+              margin: 0;
+            }
+
+            p.phone-number {
+              color: #FFF;
+              font-size: 16px;
+              font-family: SF Pro Display;
+              font-weight: 300;
+              line-height: 160%;
+              margin: 0;
+              @media only screen and (max-width: 768px) {
+                margin-bottom: 40px;
+              }
+            }
+
+            p.copyright {
+              color: #FFF;
+              font-size: 12px;
+              font-family: SF Pro Display;
+              font-weight: 300;
+              line-height: 150%;
+              margin-top: 57px;
+              margin-bottom: 0;
+            }
+          }
+
+          div.footer-section-right-2 {
+            padding: 0;
+            @media only screen and (max-width: 768px) {
+              padding: 0 10px;
+            }
+
+            h2.solutions {
+              margin-top: 7px;
+              margin-bottom: 24px;
+              color: #FFF;
+              font-size: 20px;
+              font-family: Outfit;
+              font-weight: 500;
+              line-height: 100%;
+            }
+
+            ul.solution-lists {
+              padding: 0;
+
+              li {
+                list-style: none;
+                margin: 16px 0px;
+
+                a {
+                  color: #FFF;
+                  font-size: 16px;
+                  font-family: 'Outfit';
+                  font-weight: 300;
+                  line-height: 100%;
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+
+          div.footer-section-right-3 {
+            padding: 0;
+            @media only screen and (max-width: 768px) {
+              padding: 0 10px;
+            }
+
+            h2.solutions {
+              margin-top: 7px;
+              margin-bottom: 24px;
+              color: #FFF;
+              font-size: 20px;
+              font-family: Outfit;
+              font-weight: 500;
+              line-height: 100%;
+            }
+
+            ul.solution-lists {
+              padding: 0;
+              margin-bottom: 90px;
+
+              li {
+                list-style: none;
+                margin: 16px 0px;
+
+                a {
+                  color: #FFF;
+                  font-size: 16px;
+                  font-family: 'Outfit';
+                  font-weight: 300;
+                  line-height: 100%;
+                  text-decoration: none;
+                }
+              }
+            }
+
+            div.social-media-icons {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+          }
+        }
+        p.copyright-mobile {
+          margin-top: 0;
+          color: #FFF;
+          text-align: center;
+          font-size: 12px;
+          font-family: Inter;
+          font-weight: 300;
+          line-height: 150%;
+        }
+        div.social-media-icons-mobile {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 40px;
+          a {
+            padding-right: 22px;
+          }
+        }
+      }
+
+      div.footer-section-left {
+        padding: 75px 70px 0px 70px;
+        background: #183E78;
+        @media only screen and (max-width: 768px) {
+          padding: 32px 32px;
+        }
+
+        h2.newsletter {
+          color: #FFF;
+          font-size: 24px;
+          font-family: Outfit;
+          font-weight: 600;
+          line-height: 130%;
+          margin: 0;
+        }
+
+        p.para_10 {
+          color: #FFF;
+          font-size: 18px;
+          font-family: 'Outfit';
+          font-weight: 300;
+          line-height: 150%;
+          margin-top: 16px;
+          margin-bottom: 75px;
+          @media only screen and (max-width: 768px) {
+            margin-bottom: 40px;
+          }
+        }
+
+        label.email-field {
+          position: relative;
+
+          &::before {
+            content: '';
+            position: absolute;
+            right: 20px;
+            top: 0;
+            bottom: 0;
+            width: 31px;
+            height: 20px;
+            background: url(../liftech/images/email-icon.svg) center / contain no-repeat;
+          }
+
+          input.input-field {
+            border-radius: 12px;
+            background: #1D4A8C;
+            width: 100%;
+            height: 63px;
+            border: 0;
+            padding: 20px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Poppins;
+            font-weight: 300;
+            line-height: 150%;
+            padding-right: 65px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+.navigation-menu a {
+  text-decoration: none;
+  color: #fdfefe;
+}
+
+.site-identity-logo:hover {
+  color: #fe2e64;
+}
+
+.navigation-menu__labels {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navigation-menu__labels > li > a:hover {
+  color: #fe2e64;
+}
+
+#toggleMenu,
+.navigation-menu label {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-menu {
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 1;
+  }
+
+  .navigation-menu label {
+    display: inline-flex;
+    align-items: flex-start;
+    cursor: pointer;
+    color: #fdfefe;
+    font-size: 24px;
+  }
+
+  .navigation-menu__labels {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+    padding: 5px 20px;
+  }
+
+  #toggleMenu:checked ~ .main-menu {
+    max-height: 0%;
+    min-width: 87vw;
+    display: block;
+    float: right;
+    margin-top: 10px;
+    transition: all 0.5s ease-out;
+    transform: translateX(5px);
+  }
+}
