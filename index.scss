@@ -476,6 +476,7 @@ div.about-section {
             @media only screen and (max-width: 768px) {
               padding: 0;
             }
+
             img {
               width: 100%;
             }
@@ -652,6 +653,7 @@ div.about-section {
 
     div.profile-section {
       margin-top: 100px;
+
       @media only screen and (max-width: 768px) {
         margin-top: 0;
       }
@@ -659,6 +661,7 @@ div.about-section {
       .industry_feedback {
         padding-top: 175px;
         margin-right: 50px;
+
         @media only screen and (max-width: 768px) {
           padding: 0 24px;
           padding-top: 32px;
@@ -672,6 +675,7 @@ div.about-section {
           font-weight: 600;
           line-height: 120%;
           margin-bottom: 0px;
+
           @media only screen and (max-width: 768px) {
             margin-top: 0;
             font-size: 48px;
@@ -686,6 +690,7 @@ div.about-section {
           line-height: 120%;
           margin-bottom: 0px;
           margin-top: 0;
+
           @media only screen and (max-width: 768px) {
             font-size: 48px;
           }
@@ -700,6 +705,7 @@ div.about-section {
           letter-spacing: 0.96px;
           padding-right: 30px;
           margin-bottom: 56px;
+
           @media only screen and (max-width: 768px) {
             font-size: 18px;
             margin-bottom: 35px;
@@ -740,6 +746,7 @@ div.about-section {
       div.profile_1 {
         padding: 0;
         max-width: 30%;
+
         @media only screen and (max-width: 768px) {
           max-width: 100%;
           padding: 0 24px;
@@ -748,8 +755,8 @@ div.about-section {
 
         img.pic_1 {
           position: relative;
-          top: 4px;
           left: 10%;
+
           @media only screen and (max-width: 768px) {
             width: 134.181px;
             height: 140px;
@@ -763,6 +770,7 @@ div.about-section {
           border-radius: 10px;
           background: #FBFCFE;
           padding: 48px;
+
           @media only screen and (max-width: 768px) {
             width: 100%;
             height: 260px;
@@ -773,6 +781,8 @@ div.about-section {
             position: absolute;
             left: -25px;
             bottom: 27%;
+            cursor: pointer;
+
             @media only screen and (max-width: 768px) {
               left: 50%;
               transform: translate(-50%, 50%);
@@ -789,6 +799,7 @@ div.about-section {
             letter-spacing: 1.12px;
             margin: 0;
             margin-bottom: 16px;
+
             @media only screen and (max-width: 768px) {
               font-size: 22px;
             }
@@ -806,6 +817,7 @@ div.about-section {
             line-height: 150%;
             letter-spacing: 0.96px;
             margin: 0;
+
             @media only screen and (max-width: 768px) {
               font-size: 18.826px;
             }
@@ -816,6 +828,7 @@ div.about-section {
       div.profile_2 {
         padding: 0;
         max-width: 30%;
+
         @media only screen and (max-width: 768px) {
           max-width: 100%;
           padding: 0 24px;
@@ -824,8 +837,8 @@ div.about-section {
 
         img.pic_2 {
           position: relative;
-          top: 4px;
           left: 10%;
+
           @media only screen and (max-width: 768px) {
             width: 134.181px;
             height: 140px;
@@ -839,6 +852,7 @@ div.about-section {
           border-radius: 10px;
           background: #FBFCFE;
           padding: 48px;
+
           @media only screen and (max-width: 768px) {
             width: 100%;
             height: 260px;
@@ -854,6 +868,7 @@ div.about-section {
             letter-spacing: 1.12px;
             margin: 0;
             margin-bottom: 16px;
+
             @media only screen and (max-width: 768px) {
               font-size: 22px;
             }
@@ -871,6 +886,7 @@ div.about-section {
             line-height: 150%;
             letter-spacing: 0.96px;
             margin: 0;
+
             @media only screen and (max-width: 768px) {
               font-size: 18.826px;
             }
@@ -884,6 +900,7 @@ div.about-section {
 div.helping-section {
   background: #FBFCFE;
   margin-top: 150px;
+
   @media only screen and (max-width: 768px) {
     margin-top: 80px;
   }
@@ -893,6 +910,7 @@ div.helping-section {
       div.helping-shape {
         padding: 0;
         padding-right: 147px;
+
         @media only screen and (max-width: 768px) {
           padding: 0 24px;
         }
@@ -905,6 +923,7 @@ div.helping-section {
           line-height: 120%;
           margin-top: 115px;
           margin-bottom: 24px;
+
           @media only screen and (max-width: 768px) {
             font-size: 48px;
             margin-top: 40px;
@@ -923,6 +942,7 @@ div.helping-section {
           line-height: 150%;
           letter-spacing: 0.96px;
           margin: 0;
+
           @media only screen and (max-width: 768px) {
             font-size: 20px;
           }
@@ -937,6 +957,7 @@ div.helping-section {
           letter-spacing: 0.96px;
           margin: 0;
           margin-bottom: 40px;
+
           @media only screen and (max-width: 768px) {
             font-size: 20px;
           }
@@ -950,6 +971,7 @@ div.helping-section {
           line-height: 150%;
           letter-spacing: 0.96px;
           margin: 0;
+
           @media only screen and (max-width: 768px) {
             font-size: 20px;
           }
@@ -963,6 +985,7 @@ div.helping-section {
           line-height: 150%;
           letter-spacing: 0.96px;
           margin: 0;
+
           @media only screen and (max-width: 768px) {
             font-size: 20px;
           }
@@ -983,6 +1006,7 @@ div.helping-section {
             font-family: SF Pro Display;
             line-height: 150%;
             letter-spacing: 0.96px;
+
             @media only screen and (max-width: 768px) {
               font-size: 20px;
             }
@@ -997,6 +1021,7 @@ div.helping-section {
 
         div.what_we_do_section {
           margin-top: 48px;
+
           @media only screen and (max-width: 768px) {
             margin-top: 32px;
           }
@@ -1021,10 +1046,12 @@ div.helping-section {
         padding: 0;
         text-align: right;
         transform: translateX(45px);
+
         @media only screen and (max-width: 768px) {
           transform: translateX(0px);
           text-align: center;
         }
+
         img.helping-shape-pic {
           @media only screen and (max-width: 768px) {
             width: 342px;
@@ -1044,6 +1071,7 @@ div.footer-section {
       div.footer-section-right {
         padding-top: 80px;
         padding-bottom: 70px;
+
         @media only screen and (max-width: 768px) {
           padding: 40px 24px;
         }
@@ -1051,6 +1079,7 @@ div.footer-section {
         div.row {
           justify-content: space-between;
           width: 90%;
+
           @media only screen and (max-width: 768px) {
             width: 100%;
             margin: 0;
@@ -1058,6 +1087,7 @@ div.footer-section {
 
           div.footer-section-right-1 {
             padding: 0;
+
             @media only screen and (max-width: 768px) {
               padding: 0px 10px;
             }
@@ -1066,6 +1096,7 @@ div.footer-section {
               width: 161px;
               height: 40px;
               margin-bottom: 50px;
+
               @media only screen and (max-width: 768px) {
                 margin-bottom: 48px;
               }
@@ -1096,6 +1127,7 @@ div.footer-section {
               font-weight: 300;
               line-height: 160%;
               margin: 0;
+
               @media only screen and (max-width: 768px) {
                 margin-bottom: 40px;
               }
@@ -1114,6 +1146,7 @@ div.footer-section {
 
           div.footer-section-right-2 {
             padding: 0;
+
             @media only screen and (max-width: 768px) {
               padding: 0 10px;
             }
@@ -1149,6 +1182,7 @@ div.footer-section {
 
           div.footer-section-right-3 {
             padding: 0;
+
             @media only screen and (max-width: 768px) {
               padding: 0 10px;
             }
@@ -1189,6 +1223,7 @@ div.footer-section {
             }
           }
         }
+
         p.copyright-mobile {
           margin-top: 0;
           color: #FFF;
@@ -1198,11 +1233,13 @@ div.footer-section {
           font-weight: 300;
           line-height: 150%;
         }
+
         div.social-media-icons-mobile {
           display: flex;
           align-items: center;
           justify-content: center;
           margin-top: 40px;
+
           a {
             padding-right: 22px;
           }
@@ -1212,6 +1249,7 @@ div.footer-section {
       div.footer-section-left {
         padding: 75px 70px 0px 70px;
         background: #183E78;
+
         @media only screen and (max-width: 768px) {
           padding: 32px 32px;
         }
@@ -1233,6 +1271,7 @@ div.footer-section {
           line-height: 150%;
           margin-top: 16px;
           margin-bottom: 75px;
+
           @media only screen and (max-width: 768px) {
             margin-bottom: 40px;
           }
@@ -1265,6 +1304,7 @@ div.footer-section {
             font-weight: 300;
             line-height: 150%;
             padding-right: 65px;
+
             &:focus-visible {
               outline: none;
             }
@@ -1294,7 +1334,7 @@ div.footer-section {
   gap: 25px;
 }
 
-.navigation-menu__labels > li > a:hover {
+.navigation-menu__labels>li>a:hover {
   color: #fe2e64;
 }
 
@@ -1326,7 +1366,7 @@ div.footer-section {
     padding: 5px 20px;
   }
 
-  #toggleMenu:checked ~ .main-menu {
+  #toggleMenu:checked~.main-menu {
     max-height: 0%;
     min-width: 87vw;
     display: block;
@@ -1334,5 +1374,29 @@ div.footer-section {
     margin-top: 10px;
     transition: all 0.5s ease-out;
     transform: translateX(5px);
+  }
+}
+
+div.responsive-slider {
+  width: 60%;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  button.slick-prev {
+    display: none !important;
+  }
+
+  div.slick-list {
+    .slick-track {
+      .slick-slide {
+        margin: 42px;
+
+        @media only screen and (max-width: 768px) {
+          margin: 30px 0;
+        }
+      }
+    }
   }
 }
