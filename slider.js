@@ -3,7 +3,7 @@ $(function () {
     nextArrow: '.yellow_arrow',
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 600,
     slidesToShow: 2,
     slidesToScroll: 2,
     responsive: [
@@ -24,7 +24,7 @@ $(function () {
           nextArrow: '.yellow_arrow',
           dots: false,
           infinite: true,
-          speed: 300,
+          speed: 600,
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -35,7 +35,7 @@ $(function () {
           nextArrow: '.yellow_arrow',
           dots: false,
           infinite: true,
-          speed: 300,
+          speed: 600,
           slidesToShow: 1,
           slidesToScroll: 1
         }
