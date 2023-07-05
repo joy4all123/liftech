@@ -725,19 +725,6 @@ div.about-section div.container div.profile-section div.profile_1 div.profile_ca
     padding: 32px 32px;
   }
 }
-div.about-section div.container div.profile-section div.profile_1 div.profile_card div.yellow_arrow {
-  position: absolute;
-  left: -25px;
-  bottom: 27%;
-  cursor: pointer;
-}
-@media only screen and (max-width: 768px) {
-  div.about-section div.container div.profile-section div.profile_1 div.profile_card div.yellow_arrow {
-    left: 50%;
-    transform: translate(-50%, 50%);
-    bottom: 0;
-  }
-}
 div.about-section div.container div.profile-section div.profile_1 div.profile_card h2.corporation {
   color: #000;
   font-size: 28px;
@@ -1296,4 +1283,41 @@ div.responsive-slider div.slick-list .slick-track .slick-slide {
   div.responsive-slider div.slick-list .slick-track .slick-slide {
     margin: 30px 0;
   }
+}
+div.responsive-slider button.slick-next {
+  position: absolute;
+  left: 17px;
+  top: 67%;
+  background: none;
+  color: #F2A33B;
+  width: 54px;
+  height: 54px;
+}
+@media only screen and (max-width: 768px) {
+  div.responsive-slider button.slick-next {
+    left: 42%;
+    top: 94%;
+    bottom: 0;
+  }
+}
+div.responsive-slider button.slick-next:hover {
+  background: none;
+  color: #F2A33B;
+}
+div.responsive-slider button.slick-next:focus {
+  background: none;
+  color: #F2A33B;
+}
+div.responsive-slider button.slick-next::before {
+  content: "\e941";
+  background: #F2A33B;
+  font-family: Material Symbols Outlined;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  opacity: 1;
 }/*# sourceMappingURL=index.css.map */
